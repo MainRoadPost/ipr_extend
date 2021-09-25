@@ -1,0 +1,15 @@
+{ 
+	"env" : 
+	[{
+			"H_CONFIG" : "PATH_TO_MODULES"
+		},
+		{
+			"HOUDINI_PATH": {
+                "method": "append", 
+                "value": [
+                    "$H_CONFIG/ipr_extend"
+					]
+					
+		}}	
+	]
+}
